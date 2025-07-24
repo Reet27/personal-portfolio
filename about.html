@@ -1,0 +1,62 @@
+"""
+{% extends "base.html" %}
+
+{% block title %}About - My Portfolio{% endblock %}
+
+{% block content %}
+<section class="py-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="text-center mb-5">About Me</h1>
+                
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <img src="{{ url_for('static', filename='images/profile.jpg') }}" 
+                                     alt="Profile" class="img-fluid rounded-circle mb-3" style="width: 200px;">
+                                <h4>Reet Das</h4>
+                                <p class="text-muted">Python Developer</p>
+                            </div>
+                            <div class="col-md-8">
+                                <h3 class="mb-3">My Journey</h3>
+                                <p>
+                                    I'm a passionate Python developer with a strong background in web development,Genreative AI, and Large Language Models (LLMs),
+                                    data analysis. My journey in programming started during my computer science 
+                                    studies, where I discovered the elegance and power of Python.
+                                </p>
+                                <p>
+                                    I am a final year Student pursuing a Bachelor's degree in Computer Science. 
+                                    I have worked on various projects that involve building web applications, automating tasks, and analyzing data.
+                                    My goal is to leverage my skills in Python and data science to create impactful solutions that solve real-world problems.
+                                </p>
+                                
+                                <h4 class="mt-4 mb-3">Experience & Education</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <strong>Bachelor's in Computer Science</strong> - University Of Engineering and management, Kolkata (2022-2026)
+                                    </li>
+                                    
+                                    <li class="mb-2">
+                                        <strong>Freelance Projects</strong> - Various web development projects
+                                    </li>
+                                </ul>
+                                
+                                <h4 class="mt-4 mb-3">Interests</h4>
+                                <p>
+                                    When I'm not coding, I enjoy reading about emerging technologies, 
+                                    contributing to open-source projects, and exploring new frameworks. 
+                                    I'm also passionate about teaching others and sharing knowledge 
+                                    through blog posts and tutorials.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+"""
